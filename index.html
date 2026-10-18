@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Exocorder Claude Docs is a personal-use workflow for reading Google Docs and publishing requested reports from Claude Code through the local gws command-line tool.">
+  <title>Exocorder Claude Docs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header"><a class="wordmark" href="./">Exocorder Claude Docs</a><nav aria-label="Main navigation"><a href="privacy.html">Privacy</a><a href="https://github.com/JonBold11/exocorder-claude-docs">Source &amp; contact</a></nav></header>
+  <main>
+    <p class="eyebrow">Personal-use integration</p>
+    <h1>A document workflow for Claude Code.</h1>
+    <p class="lead">Exocorder Claude Docs lets its operator ask Claude Code to read Google Docs or append a report using the locally installed <code>gws</code> command-line tool.</p>
+    <section aria-labelledby="workflow"><h2 id="workflow">How it works</h2>
+      <ol><li>The operator signs in with Google and grants the integration access to Google Docs.</li><li>When asked to work with a document, Claude Code runs a local <code>gws</code> command that calls the Google Docs API.</li><li>Requested document content can become part of Claude’s conversation. Reports can be sent back to Google Docs when the operator asks to publish them.</li></ol>
+      <p>This is an individual’s personal workflow. This website provides information; it does not offer public registration or a browser-based document editor. The workflow does not automatically mirror terminal output.</p>
+    </section>
+    <section aria-labelledby="access"><h2 id="access">Access and data handling</h2>
+      <p>The Google permission covers viewing, editing, creating, and deleting Google Docs available to the authorized account. It is broader than access to one document. Basic Google identity scopes support sign-in; Gmail, Calendar, and full Google Drive access are not requested by this configuration.</p>
+      <p>Google handles document storage, and Claude processes content provided to it under the operator’s account settings and applicable terms. <a href="privacy.html">Read the privacy policy</a> for storage, sharing, and revocation details.</p>
+    </section>
+    <aside><p>Maintained by <a href="https://github.com/JonBold11">JonBold11</a>. This independent integration is not an official Google or Anthropic product.</p></aside>
+  </main>
+  <footer><span>Exocorder Claude Docs</span><a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
